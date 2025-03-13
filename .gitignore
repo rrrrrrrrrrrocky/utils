@@ -1,0 +1,35 @@
+# Ignore Gradle project-specific cache directory
+.gradle/
+.idea/
+.settings/
+.project
+**/.classpath
+
+# Ignore Gradle build output directory
+**/build/
+**/bin/
+**/config/
+**/.config/
+
+# Ignore IDE settings
+**/.idea
+
+# ios
+.DS_Store
+
+# backend
+/pirates-api/src/main/resources/cert/
+/pirates-www-server/src/main/resources/static/static/
+/pirates-www-server/src/main/resources/templates/index.html
+/tp-app-console-api/src/local/resources/config/application.yml
+/tp-partnership-api/src/local/resources/config/application.yml
+
+# frontend
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+node_modules
+package.json
+package-lock.json
+yarn.lock
